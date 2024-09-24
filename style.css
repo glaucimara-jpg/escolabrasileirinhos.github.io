@@ -1,0 +1,137 @@
+body{
+  
+  text-align: center;
+
+ 
+
+}
+
+img{
+width:800 px;
+height: 500px;;
+border:rgb(48, 42, 12);
+border-style: ridge;
+border-width: 15px;
+  
+  
+}
+
+
+ 
+
+
+
+
+
+
+.line{
+  height: 6px;
+  background-color: rgb(5, 77, 35);
+  width:70px;
+  margin:8px auto;
+  
+}
+
+.menu{
+ list-style: none;
+  font-family:fantasy;
+  font-size: 30px;
+ float:left;
+  top:10px;
+  right:30px;
+  cursor: pointer;
+
+}
+
+.menu {
+  position: fixed;
+  background: #e2eb78;
+width: 100%;
+  margin-top: 0px;
+  
+
+  top: 0px;
+  z-index: 10;
+}
+
+
+
+.link{
+  
+  display: inline;
+  padding-top:5px;
+  padding-left:9px;
+  padding-right:9px;
+  padding-bottom: 5px;
+
+  
+}
+ .link:hover{
+  background-color:beige;
+}
+
+
+
+#picture{
+  width:auto;
+  height:500px;
+  width: 500px;
+ border-radius:0%;
+ 
+  
+  margin:20px;
+}
+.food
+{
+background: #373B44;  /* substituto para navegadores antigos */
+
+background: linear-gradient( #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-top:20px;
+}
+
+img {
+transition: transform .1s;
+
+}
+
+img:hover {
+  /* Forneça a propriedade transform: scale para 0.9 */
+  transform: scale( );
+}
+
+
+
+
+
+
+#teste:hover img{
+-webkit-transform: scale(1.5);
+transform: scale(1.5);
+}
+
+#contact:hover img{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  }
+  
+
+    
+#Contact:hover img{
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+      }
+      
+#cursos:hover img{
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        }
+        
+#projeto:hover img{
+          -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+          }
+          
+#promo:hover img{
+            -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+            }
